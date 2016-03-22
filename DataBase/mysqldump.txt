@@ -1,0 +1,2 @@
+mysqldump -uroot -h localhost -piiizb104 project jobstored > "E:\Project\MySQL Dump\jobstoredcopy.sql"
+mysqldump -uroot -h localhost -piiizb104 project > "E:\Project\MySQL Dump\project.sql"

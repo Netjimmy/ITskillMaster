@@ -1,0 +1,3057 @@
+(dp1
+S'scm'
+p2
+S'supply chain management'
+p3
+sS'edc'
+p4
+S'electronic data capture'
+p5
+sS'bapi'
+p6
+S'business application programming interface'
+p7
+sS'eda'
+p8
+S'event-driven architecture'
+p9
+sS'point of service'
+p10
+S'pos'
+p11
+sS'dsr'
+p12
+S'demand signal repository'
+p13
+sS'emcg'
+p14
+S'enterprise mobile communications gateway'
+p15
+sS'wideband code division multiple access'
+p16
+S'wcdma'
+p17
+sS'international mobile telecommunications advanced'
+p18
+S'imt-a'
+p19
+sS'cobit'
+p20
+S'control objectives for information and related technology'
+p21
+sS'chief information officer'
+p22
+S'cio'
+p23
+sS'uniform resource locator'
+p24
+S'url'
+p25
+sS'third generation'
+p26
+S'3g'
+p27
+sS'personal access system'
+p28
+S'pas'
+p29
+sS'cdns'
+p30
+S'content delivery networks'
+p31
+sS'connection mode network service'
+p32
+S'cmns'
+p33
+sS'simple object access protocol'
+p34
+S'soap'
+p35
+sS'quality assurance'
+p36
+S'qa'
+p37
+sS'xdsl iad'
+p38
+S'voice-enabled residential/small-office gateway/router with embedded dsl modem'
+p39
+sS'w3c'
+p40
+S'world wide web consortium'
+p41
+sS'document-enabled vertical application'
+p42
+S'deva'
+p43
+sS'spec'
+p44
+S'standard performance evaluation corporation'
+p45
+sS'wdm-pon'
+p46
+S'wavelength division multiplexing passive optical network'
+p47
+sS'patient care management'
+p48
+S'pcm'
+p49
+sS'supply chain execution'
+p50
+S'sce'
+p51
+sS'mpm'
+p52
+S'marketing performance management'
+p53
+sS'rapid application development'
+p54
+S'rad'
+p55
+sS'mous'
+p56
+S'minutes of use'
+p57
+sS'e-waste'
+p58
+S'electronic waste'
+p59
+sS'time division multiple access'
+p60
+S'tdma'
+p61
+sS'fiber distributed data interface'
+p62
+S'fddi'
+p63
+sS'falm'
+p64
+S'federated application life cycle management'
+p65
+sS'software asset management'
+p66
+S'sam'
+p67
+sS'software license management'
+p68
+S'slm'
+p69
+sS'vlr'
+p70
+S'visitor location register'
+p71
+sS'voip'
+p72
+S'voice over internet protocol'
+p73
+sS'ccow'
+p74
+S'clinical context object workgroup'
+p75
+sS'nccm'
+p76
+S'network configuration and change management'
+p77
+sS'integrated e-form management'
+p78
+S'iefm'
+p79
+sS'component object model'
+p80
+S'com'
+p81
+sS'critical success factor'
+p82
+S'csf'
+p83
+sS'american medical informatics association'
+p84
+S'amia'
+p85
+sS'single in-line memory module'
+p86
+S'simm'
+p87
+sS'smb'
+p88
+S'small and midsize business'
+p89
+sS'application management outsourcing'
+p90
+S'amo'
+p91
+sS'esi'
+p92
+S'enterprise security intelligence'
+p93
+sS'cni'
+p94
+S'carrier network infrastructure'
+p95
+sS'closed-loop material requirements planning'
+p96
+S'closed-loop mrp'
+p97
+sS'corporate and major enterprise'
+p98
+S'cme'
+p99
+sS'international mobile subscriber identity'
+p100
+S'imsi'
+p101
+sS'return on information technology'
+p102
+S'roit'
+p103
+sS'location-based services'
+p104
+S'lbs'
+p105
+sS'configuration management'
+p106
+S'cm'
+p107
+sS'cfd'
+p108
+S'computational-fluid-dynamic'
+p109
+sS'e-readers'
+p110
+S'e-book readers'
+p111
+sS'mdm services'
+p112
+S'mobile device management services'
+p113
+sS'service management agreement'
+p114
+S'sma'
+p115
+sS'frequency-hopping multiple access'
+p116
+S'fhma'
+p117
+sS'dvcs'
+p118
+S'distributed version control system'
+p119
+sS'abc'
+p120
+S'activity-based costing'
+p121
+sS'supervisory control and data acquisition'
+p122
+S'scada'
+p123
+sS'interactive voice response'
+p124
+S'ivr'
+p125
+sS'ccs'
+p126
+S'hundred call seconds'
+p127
+sS'asic'
+p128
+S'application-specific integrated circuit'
+p129
+sS'abm'
+p130
+S'activity-based management'
+p131
+sS'adaptive multirate'
+p132
+S'amr'
+p133
+sS'architected, model-driven development'
+p134
+S'amd'
+p135
+sS'it operations management'
+p136
+S'itom'
+p137
+sS'iamaas'
+p138
+S'iam as a service'
+p139
+sS'rapid architected application development'
+p140
+S'raad'
+p141
+sS'health insurance portability and accountability act'
+p142
+S'hipaa'
+p143
+sS'specification, tracking, evaluation, production'
+p144
+S'step'
+p145
+sS'wireless application service provider'
+p146
+S'wasp'
+p147
+sS'integrated definition methodology'
+p148
+S'idef'
+p149
+sS'instant messaging'
+p150
+S'im'
+p151
+sS'mem'
+p152
+S'media-embedded merchandising'
+p153
+sS'committed information rate'
+p154
+S'cir'
+p155
+sS'e-mobility'
+p156
+S'electro mobility'
+p157
+sS'e-otd'
+p158
+S'enhanced observed time difference'
+p159
+sS'cpoe'
+p160
+S'computer-based physician order entry'
+p161
+sS'transmission-level point'
+p162
+S'tlp'
+p163
+sS'controlled medical vocabulary'
+p164
+S'cmv'
+p165
+sS'service-level objective'
+p166
+S'slo'
+p167
+sS'super video graphics array'
+p168
+S'svga'
+p169
+sS'digital audiotape'
+p170
+S'dat'
+p171
+sS'secure sockets layer'
+p172
+S'ssl'
+p173
+sS'chief knowledge officer'
+p174
+S'cko'
+p175
+sS'adms'
+p176
+S'advanced distribution management systems'
+p177
+sS'java platform, micro edition'
+p178
+S'java me'
+p179
+sS'vba'
+p180
+S'visual basic for applications'
+p181
+sS'point of sale'
+p182
+S'pos'
+p183
+sS'ctp'
+p184
+S'capable-to-promise'
+p185
+sS'customer information management'
+p186
+S'cim'
+p187
+sS'switched service network'
+p188
+S'ssn'
+p189
+sS'digital audio broadcasting'
+p190
+S'dab'
+p191
+sS'vbr'
+p192
+S'variable bit rate'
+p193
+sS'cert'
+p194
+S'computer emergency response team'
+p195
+sS'drm'
+p196
+S'consumer digital rights management'
+p197
+sS'bom'
+p198
+S'bill-of-materials'
+p199
+sS'total access communications system'
+p200
+S'tacs'
+p201
+sS'vbx'
+p202
+S'visual basic extension'
+p203
+sS'huds'
+p204
+S'head-up displays'
+p205
+sS'complementary metal-oxide semiconductor'
+p206
+S'cmos'
+p207
+sS'dual-attached station'
+p208
+S'das'
+p209
+sS'aps'
+p210
+S'advanced planning and scheduling'
+p211
+sS'ngfws'
+p212
+S'next-generation firewalls'
+p213
+sS'iles'
+p214
+S'immersive learning environments'
+p215
+sS'information engineering'
+p216
+S'ie'
+p217
+sS'defense advanced research projects agency'
+p218
+S'darpa'
+p219
+sS'fbc'
+p220
+S'fabric-based computing'
+p221
+sS'transmission control protocol'
+p222
+S'tcp'
+p223
+sS'system integrator'
+p224
+S'si'
+p225
+sS'apm'
+p226
+S'asset performance management'
+p227
+sS'bre'
+p228
+S'business rule engines'
+p229
+sS'apa'
+p230
+S'applications portfolio analysis'
+p231
+sS'folksonomy'
+p232
+S'social tagging'
+p233
+sS'pmps'
+p234
+S'connected portable media players'
+p235
+sS'e-forms'
+p236
+S'electronic forms'
+p237
+sS'vlsi'
+p238
+S'very large-scale integration'
+p239
+sS'generic access network'
+p240
+S'gan'
+p241
+sS'mss'
+p242
+S'mobile satellite services'
+p243
+sS'it service support management tools'
+p244
+S'itssm tools'
+p245
+sS'msp'
+p246
+S'managed service provider'
+p247
+sS'chp'
+p248
+S'combined heat and power'
+p249
+sS'integrated development environment'
+p250
+S'ide'
+p251
+sS'ip'
+p252
+S'reusable analog intellectual property'
+p253
+sS'pulse width modulation'
+p254
+S'pwm'
+p255
+sS'hypertext markup language'
+p256
+S'html'
+p257
+sS'itam'
+p258
+S'it asset management'
+p259
+sS'sim application toolkit'
+p260
+S'sim toolkit'
+p261
+sS'wired equivalent privacy'
+p262
+S'wep'
+p263
+sS'vpn'
+p264
+S'virtual private network'
+p265
+sS'transportation management system'
+p266
+S'tms'
+p267
+sS'data analysis and provider profiling'
+p268
+S'dapp'
+p269
+sS'pnfs'
+p270
+S'parallel network file system'
+p271
+sS'erp'
+p272
+S'enterprise resource planning'
+p273
+sS'car'
+p274
+S'committed access rate'
+p275
+sS'round-trip time'
+p276
+S'rtt'
+p277
+sS'subscriber identity module'
+p278
+S'sim card'
+p279
+sS'eh&s'
+p280
+S'environmental health and safety'
+p281
+sS'oled'
+p282
+S'organic light-emitting diode'
+p283
+sS'pmo'
+p284
+S'project management office'
+p285
+sS'cam'
+p286
+S'computer-aided manufacturing'
+p287
+sS'gis'
+p288
+S'geographic information system'
+p289
+sS'cac'
+p290
+S'connection admission control'
+p291
+sS'erm'
+p292
+S'enterprise risk management'
+p293
+sS'personal health record'
+p294
+S'phr'
+p295
+sS'cae'
+p296
+S'computer-aided engineering'
+p297
+sS'return on investment'
+p298
+S'roi'
+p299
+sS'fiber to the premises'
+p300
+S'fttp'
+p301
+sS'service-level management'
+p302
+S'slm'
+p303
+sS'smart mfp'
+p304
+S'smfp'
+p305
+sS'directory access protocol'
+p306
+S'dap'
+p307
+sS'cyber incident response team'
+p308
+S'cirt'
+p309
+sS'internet document security'
+p310
+S'ids'
+p311
+sS'transmission control protocol/internet protocol'
+p312
+S'tcp/ip'
+p313
+sS'longitudinal redundancy check'
+p314
+S'lrc'
+p315
+sS'srm'
+p316
+S'storage resource management'
+p317
+sS'dxc'
+p318
+S'digital cross-connect'
+p319
+sS'ib'
+p320
+S'integration brokerage'
+p321
+sS'systematized nomenclature of medicine'
+p322
+S'snomed'
+p323
+sS'statement of work'
+p324
+S'sow'
+p325
+sS'distributed platforms, proprietary'
+p326
+S'language-oriented development environments'
+p327
+sS'liquid crystal display'
+p328
+S'lcd'
+p329
+sS'mapi'
+p330
+S'messaging application programming interface'
+p331
+sS'blob'
+p332
+S'binary large object'
+p333
+sS'csb'
+p334
+S'cloud services brokerage'
+p335
+sS'campaign management system'
+p336
+S'cms'
+p337
+sS'ens'
+p338
+S'enterprise nervous system'
+p339
+sS'input/output'
+p340
+S'i/o'
+p341
+sS'er&a'
+p342
+S'entity resolution and analysis'
+p343
+sS'personal information manager'
+p344
+S'pim'
+p345
+sS'click-through rate'
+p346
+S'ctr'
+p347
+sS'common messaging calls'
+p348
+S'cmc'
+p349
+sS'ria'
+p350
+S'rich internet application'
+p351
+sS'fiber to the home'
+p352
+S'ftth'
+p353
+sS'ats'
+p354
+S'applicant tracking systems'
+p355
+sS'distribution requirements planning'
+p356
+S'drp'
+p357
+sS'sna'
+p358
+S'social network analysis'
+p359
+sS'transport layer security'
+p360
+S'tls'
+p361
+sS'vlan'
+p362
+S'virtual lan'
+p363
+sS'qr codes'
+p364
+S'quick response codes'
+p365
+sS'sip'
+p366
+S'session initiation protocol'
+p367
+sS'phase-shift keying'
+p368
+S'psk'
+p369
+sS'local-area network'
+p370
+S'lan'
+p371
+sS'paas'
+p372
+S'platform as a service'
+p373
+sS'fixed-mobile convergence'
+p374
+S'fmc'
+p375
+sS'ot'
+p376
+S'operational technology'
+p377
+sS'clear to send'
+p378
+S'ctx'
+p379
+sS'consumer network attached storage'
+p380
+S'consumer nas'
+p381
+sS'sso'
+p382
+S'single sign-on'
+p383
+sS'just in time'
+p384
+S'jit'
+p385
+sS'ebpp'
+p386
+S'electronic bill presentment and payment'
+p387
+sS'internet message access protocol'
+p388
+S'imap'
+p389
+sS'secure hypertext transport protocol'
+p390
+S's-http'
+p391
+sS'in erlangs'
+p392
+S'peak traffic'
+p393
+sS'skills-based management'
+p394
+S'sbm'
+p395
+sS'mps'
+p396
+S'managed print services'
+p397
+sS'service parts planning'
+p398
+S'spp'
+p399
+sS'soa'
+p400
+S'service-oriented architecture'
+p401
+sS'network computer'
+p402
+S'nc'
+p403
+sS'itg'
+p404
+S'it governance'
+p405
+sS'wireless application protocol'
+p406
+S'wap'
+p407
+sS'alm paas'
+p408
+S'application life cycle management platform as a service'
+p409
+sS'single minute exchange of die'
+p410
+S'smed'
+p411
+sS'computer-integrated manufacturing'
+p412
+S'cim'
+p413
+sS'direct-access storage device'
+p414
+S'dasd'
+p415
+sS'single-carrier frequency division multiple access'
+p416
+S'sc-fdma'
+p417
+sS'single instruction, multiple data'
+p418
+S'simd'
+p419
+sS'clm'
+p420
+S'contract life cycle management'
+p421
+sS'own design manufacturer'
+p422
+S'odm'
+p423
+sS'le'
+p424
+S'bluetooth low energy'
+p425
+sS'corporate license agreement'
+p426
+S'cla'
+p427
+sS'system and server evaluation model'
+p428
+S'ssem'
+p429
+sS'vtl'
+p430
+S'virtual tape library'
+p431
+sS'ims'
+p432
+S'ip multimedia subsystem'
+p433
+sS'first pass yield'
+p434
+S'fpy'
+p435
+sS'pcm'
+p436
+S'phase change memory'
+p437
+sS'simple workflow access protocol'
+p438
+S'swap'
+p439
+sS'class of service'
+p440
+S'cos'
+p441
+sS'technology-enabled relationship management'
+p442
+S'term'
+p443
+sS'cyclic redundancy check'
+p444
+S'crc'
+p445
+sS'wocs'
+p446
+S'wide-area network optimization controllers'
+p447
+sS'software change and configuration management'
+p448
+S'sccm'
+p449
+sS'cec'
+p450
+S'customer engagement center'
+p451
+sS'dam'
+p452
+S'database activity monitoring'
+p453
+sS'cem'
+p454
+S'customer experience management'
+p455
+sS'cagr'
+p456
+S'compound annual growth rate'
+p457
+sS'distributed database management system'
+p458
+S'ddbms'
+p459
+sS'mvoip'
+p460
+S'mobile voice over internet protocol'
+p461
+sS'noc'
+p462
+S'network on chip'
+p463
+sS'hospital information system or healthcare information system'
+p464
+S'his'
+p465
+sS'flexible manufacturing system'
+p466
+S'fms'
+p467
+sS'dap'
+p468
+S'database audit and protection'
+p469
+sS'physician contracting organization'
+p470
+S'pco'
+p471
+sS'mvne'
+p472
+S'mobile virtual network enabler'
+p473
+sS'mvno'
+p474
+S'mobile virtual network operator'
+p475
+sS'itsd'
+p476
+S'it service desk'
+p477
+sS'subscriber acquisition cost'
+p478
+S'sac'
+p479
+sS'nfc'
+p480
+S'near field communication'
+p481
+sS'design for six sigma'
+p482
+S'dfss'
+p483
+sS'coder/decoder'
+p484
+S'codec'
+p485
+sS'on-device portal'
+p486
+S'odp'
+p487
+sS'synchronous transfer mode'
+p488
+S'stm'
+p489
+sS'van'
+p490
+S'value-added network'
+p491
+sS'defects per opportunity'
+p492
+S'dpo'
+p493
+sS'shortest path first'
+p494
+S'spf'
+p495
+sS'storage service provider'
+p496
+S'ssp'
+p497
+sS'cmip over llc'
+p498
+S'cmol'
+p499
+sS'function point'
+p500
+S'fp'
+p501
+sS'e-signature'
+p502
+S'electronic signature'
+p503
+sS'commercial parallel processing'
+p504
+S'cpp'
+p505
+sS'frequency division duplex'
+p506
+S'fdd'
+p507
+sS'mdm'
+p508
+S'mobile device management'
+p509
+sS'mda'
+p510
+S'model-driven architecture'
+p511
+sS'ea'
+p512
+S'enterprise architecture'
+p513
+sS'bt4.0'
+p514
+S'bluetooth 4.0'
+p515
+sS'healthcare infomediary'
+p516
+S'hi'
+p517
+sS'ep'
+p518
+S'enterprise portal'
+p519
+sS'international telecommunication union'
+p520
+S'itu'
+p521
+sS'management services organization'
+p522
+S'mso'
+p523
+sS'xbrl'
+p524
+S'extensible business reporting language'
+p525
+sS'software development kit'
+p526
+S'sdk'
+p527
+sS'm2m'
+p528
+S'machine-to-machine'
+p529
+sS'ble'
+p530
+S'behavior learning engines'
+p531
+sS'rm'
+p532
+S'records management'
+p533
+sS'certificate revocation list'
+p534
+S'crl'
+p535
+sS'statistical time-division multiplexing'
+p536
+S'stdm'
+p537
+sS'computer-aided patient-entered medical history'
+p538
+S'cpemh'
+p539
+sS'asp'
+p540
+S'average selling price'
+p541
+sS'ems'
+p542
+S'enhanced messaging service'
+p543
+sS'arpanet'
+p544
+S'advanced research projects agency network'
+p545
+sS'constant linear velocity'
+p546
+S'clv'
+p547
+sS'ecm'
+p548
+S'enterprise content management'
+p549
+sS'collaborative product commerce'
+p550
+S'cpc'
+p551
+sS'mms'
+p552
+S'mobility managed services'
+p553
+sS'asc'
+p554
+S'accredited standards committee'
+p555
+sS'bwa'
+p556
+S'broadband wireless access'
+p557
+sS'asa'
+p558
+S'average speed of answer'
+p559
+sS'regulatory'
+p560
+S'compliance'
+p561
+sS'distributed resource management'
+p562
+S'drm'
+p563
+sS'byte'
+p564
+S'binary table'
+p565
+sS'redundant array of independent disks'
+p566
+S'raid'
+p567
+sS'aso'
+p568
+S'automated system operations'
+p569
+sS'asn'
+p570
+S'autonomous system number'
+p571
+sS'internet service provider'
+p572
+S'isp'
+p573
+sS'atg'
+p574
+S'advanced technology group'
+p575
+sS'atd'
+p576
+S'advanced threat detection'
+p577
+sS'docomo java'
+p578
+S'doja'
+p579
+sS'consolidated service desk'
+p580
+S'csd'
+p581
+sS'wired for management'
+p582
+S'wfm'
+p583
+sS'atm'
+p584
+S'automated teller machine'
+p585
+sS'sms'
+p586
+S'short message service'
+p587
+sS'also lean sensei'
+p588
+S'sensei'
+p589
+sS'wll'
+p590
+S'mobile wireless local loop'
+p591
+sS'fcoe'
+p592
+S'fibre channel over ethernet'
+p593
+sS'instructor-led practical training'
+p594
+S'ilpt'
+p595
+sS'cdma'
+p596
+S'code division multiple access'
+p597
+sS'wlan'
+p598
+S'wireless local-area network'
+p599
+sS'tsvs'
+p600
+S'through-silicon vias'
+p601
+sS'wireless application gateway'
+p602
+S'wag'
+p603
+sS'software configuration management'
+p604
+S'scm'
+p605
+sS'cadd'
+p606
+S'computer-aided design and drafting'
+p607
+sS'cost per gross add'
+p608
+S'cpga'
+p609
+sS'relationship manager'
+p610
+S'rm'
+p611
+sS'iam'
+p612
+S'identity and access management'
+p613
+sS'chief technology officer'
+p614
+S'cto'
+p615
+sS'ian'
+p616
+S'identity-aware networks'
+p617
+sS'independent software vendor'
+p618
+S'isv'
+p619
+sS'physician hospital organization'
+p620
+S'pho'
+p621
+sS'iaas'
+p622
+S'integration as a service'
+p623
+sS'integration broker'
+p624
+S'ib'
+p625
+sS'society for worldwide interbank financial telecommunication'
+p626
+S'swift'
+p627
+sS'gps'
+p628
+S'global positioning system'
+p629
+sS'system-managed storage'
+p630
+S'sms'
+p631
+sS'system architecture evolution'
+p632
+S'sae'
+p633
+sS'circuit-switched data'
+p634
+S'csd'
+p635
+sS'design for x'
+p636
+S'dfx'
+p637
+sS'statistical process control'
+p638
+S'spc'
+p639
+sS'data interchange format'
+p640
+S'dif'
+p641
+sS'audio messaging interchange specification'
+p642
+S'amis'
+p643
+sS'dtc'
+p644
+S'digital transformation consulting'
+p645
+sS'sales force automation'
+p646
+S'sfa'
+p647
+sS'simple network management protocol'
+p648
+S'snmp'
+p649
+sS'street'
+p650
+S'scope, track, rank, evaluate, evangelize and transfer'
+p651
+sS'key process input variable'
+p652
+S'kpiv'
+p653
+sS'low earth orbit'
+p654
+S'leo'
+p655
+sS'customer information management and application'
+p656
+S'cima'
+p657
+sS'radio packet assembler/disassembler'
+p658
+S'radio pad'
+p659
+sS'lowest common denominator'
+p660
+S'lcd'
+p661
+sS'integrated receiver decoder'
+p662
+S'ird'
+p663
+sS'dast'
+p664
+S'dynamic application security testing'
+p665
+sS'dsscs'
+p666
+S'dye-sensitized solar cells'
+p667
+sS'lba'
+p668
+S'location-based advertising'
+p669
+sS'e-crm'
+p670
+S'electronic customer relationship management'
+p671
+sS'common information model'
+p672
+S'cim'
+p673
+sS'personal access communication services'
+p674
+S'pacs'
+p675
+sS'freedom of mobile multimedia access'
+p676
+S'foma'
+p677
+sS'common internet file system'
+p678
+S'cifs'
+p679
+sS'dbms'
+p680
+S'column-store database management system'
+p681
+sS'transcoding'
+p682
+S'gateway'
+p683
+sS'sdr'
+p684
+S'software-defined radio'
+p685
+sS'e-prescribing'
+p686
+S'electronic prescribing'
+p687
+sS'trunk media gateways'
+p688
+S'tmg'
+p689
+sS'epm'
+p690
+S'enterprise performance management'
+p691
+sS'efm'
+p692
+S'enterprise fraud management'
+p693
+sS'satphone'
+p694
+S'satellite phone'
+p695
+sS'graphical user interface'
+p696
+S'gui'
+p697
+sS'peer-to-peer'
+p698
+S'p2p'
+p699
+sS'roadms'
+p700
+S'reconfigurable optical add/drop multiplexers'
+p701
+sS'return on equity'
+p702
+S'roe'
+p703
+sS'internet wan'
+p704
+S'hybrid mpls'
+p705
+sS'vno'
+p706
+S'virtual network operator'
+p707
+sS'small-to-midsize enterprise'
+p708
+S'sme'
+p709
+sS'bsp'
+p710
+S'business service provider'
+p711
+sS'mpeg'
+p712
+S'moving picture experts group'
+p713
+sS'lcos'
+p714
+S'liquid crystal on silicon'
+p715
+sS'network code of practice'
+p716
+S'ncop'
+p717
+sS'bsc'
+p718
+S'binary synchronous communications'
+p719
+sS'ddvn'
+p720
+S'demand-driven value network'
+p721
+sS'corporate performance management'
+p722
+S'cpm'
+p723
+sS'health plan employer data and information set'
+p724
+S'hedis'
+p725
+sS'mobile'
+p726
+S'penetration rate'
+p727
+sS'economizers'
+p728
+S'free cooling'
+p729
+sS'cimi'
+p730
+S'clinical information modeling initiative'
+p731
+sS'km'
+p732
+S'knowledge management'
+p733
+sS'brew'
+p734
+S'binary runtime environment for wireless'
+p735
+sS'integrated publishing architecture'
+p736
+S'ipa'
+p737
+sS'single large expensive disk'
+p738
+S'sled'
+p739
+sS'relational database management system'
+p740
+S'rdbms'
+p741
+sS'nlp'
+p742
+S'natural-language processing'
+p743
+sS'integrated applications environment'
+p744
+S'iae'
+p745
+sS'instructor-led training in the classroom'
+p746
+S'iltc'
+p747
+sS'cdo'
+p748
+S'care delivery organization'
+p749
+sS'context delivery architecture'
+p750
+S'coda'
+p751
+sS'common object request broker architecture'
+p752
+S'corba'
+p753
+sS'cdp'
+p754
+S'continuous data protection'
+p755
+sS'ipaas'
+p756
+S'integration platform as a service'
+p757
+sS'cdr'
+p758
+S'clinical data repository'
+p759
+sS'c/im'
+p760
+S'crisis/incident management'
+p761
+sS'common public radio interface'
+p762
+S'cpri'
+p763
+sS'xml'
+p764
+S'extensible markup language'
+p765
+sS'ni'
+p766
+S'network intelligence'
+p767
+sS'bipv'
+p768
+S'building-integrated photovoltaics'
+p769
+sS'personal digital assistant'
+p770
+S'pda'
+p771
+sS'institute of electrical and electronics engineers'
+p772
+S'ieee'
+p773
+sS'rasp'
+p774
+S'runtime application self-protection'
+p775
+sS'digital rights management'
+p776
+S'drm'
+p777
+sS'defects per million opportunities'
+p778
+S'dpmo'
+p779
+sS'supply chain inventory visibility'
+p780
+S'sciv'
+p781
+sS'channel service unit'
+p782
+S'csu'
+p783
+sS'dm'
+p784
+S'document management'
+p785
+sS'continuous quality improvement'
+p786
+S'cqi'
+p787
+sS'radio network controller'
+p788
+S'rnc'
+p789
+sS'vsat'
+p790
+S'very small aperture terminal'
+p791
+sS'dg'
+p792
+S'distributed generation'
+p793
+sS'java ee'
+p794
+S'java platform, enterprise edition'
+p795
+sS'bicc'
+p796
+S'business intelligence competency center'
+p797
+sS'bcmp'
+p798
+S'business continuity management planning'
+p799
+sS'hie'
+p800
+S'health information exchange'
+p801
+sS'dr'
+p802
+S'disaster recovery'
+p803
+sS'cellular multi-processing'
+p804
+S'cmp'
+p805
+sS'directorate general of telecommunications, taiwan'
+p806
+S'dgt'
+p807
+sS'emm'
+p808
+S'enterprise metadata management'
+p809
+sS'woa'
+p810
+S'web-oriented architecture'
+p811
+sS'critical to quality'
+p812
+S'ctq'
+p813
+sS'continuous process improvement'
+p814
+S'cpi'
+p815
+sS'distributed application platform'
+p816
+S'dap'
+p817
+sS'light-emitting diode'
+p818
+S'led'
+p819
+sS'corporate property management software'
+p820
+S'cpms'
+p821
+sS'bam'
+p822
+S'business activity monitoring'
+p823
+sS'course management'
+p824
+S'cm'
+p825
+sS'dpi'
+p826
+S'mobile deep packet inspection'
+p827
+sS'crm'
+p828
+S'customer relationship management'
+p829
+sS'cmip over tcp/ip'
+p830
+S'cmot'
+p831
+sS'bts'
+p832
+S'base transceiver station'
+p833
+sS'international organization for standardization'
+p834
+S'iso'
+p835
+sS'ara'
+p836
+S'application release automation'
+p837
+sS'bta'
+p838
+S'basic trading area'
+p839
+sS'act i'
+p840
+S'application, channel, technology and industry'
+p841
+sS'lng'
+p842
+S'liquefied natural gas'
+p843
+sS'customer premises equipment'
+p844
+S'cpe'
+p845
+sS'simple mail transfer protocol'
+p846
+S'smtp'
+p847
+sS'defects per unit'
+p848
+S'dpu'
+p849
+sS'vru'
+p850
+S'voice response unit'
+p851
+sS'hmds'
+p852
+S'head-mounted displays'
+p853
+sS'flat panel display'
+p854
+S'fpd'
+p855
+sS'wireless fidelity'
+p856
+S'wi-fi'
+p857
+sS'information management'
+p858
+S'im'
+p859
+sS'field sales/inside sales'
+p860
+S'sfa (sales force automation) \xe2\x80\x94 direct sales'
+p861
+sS'auto-tiering'
+p862
+S'automatic storage tiering'
+p863
+sS'dlp'
+p864
+S'content-aware data loss prevention'
+p865
+sS'international mobile equipment identifier'
+p866
+S'imei'
+p867
+sS'failure modes effects analysis'
+p868
+S'fmea'
+p869
+sS'abpd'
+p870
+S'automated business process discovery'
+p871
+sS'personal handyphone system'
+p872
+S'phs'
+p873
+sS'infrared data association'
+p874
+S'irda'
+p875
+sS'vrs'
+p876
+S'voice response system'
+p877
+sS'wireless datagram protocol'
+p878
+S'wdp'
+p879
+sS'geosynchronous orbit'
+p880
+S'geo'
+p881
+sS'central processing unit'
+p882
+S'cpu'
+p883
+sS'vdsl'
+p884
+S'very high-speed digital subscriber lines'
+p885
+sS'xslt'
+p886
+S'extensible stylesheet language transformations'
+p887
+sS'commercial'
+p888
+S'compliance'
+p889
+sS'facilities management'
+p890
+S'fm'
+p891
+sS'social tagging'
+p892
+S'folksonomies'
+p893
+sS'oms'
+p894
+S'outage management system'
+p895
+sS'kurtz-above band'
+p896
+S'ka-band'
+p897
+sS'gtc'
+p898
+S'foreign/global trade compliance'
+p899
+sS'caas'
+p900
+S'communications as a service'
+p901
+sS'vrm'
+p902
+S'vendor risk management'
+p903
+sS'partial document encryption'
+p904
+S'pde'
+p905
+sS'emss'
+p906
+S'energy management systems'
+p907
+sS'ilm'
+p908
+S'information life cycle management'
+p909
+sS'dynamic address translation'
+p910
+S'dat'
+p911
+sS'define, measure, analyze, improve, control'
+p912
+S'dmaic'
+p913
+sS'eta'
+p914
+S'enterprise technology architecture'
+p915
+sS'technical license management'
+p916
+S'tlm'
+p917
+sS'cd-rw'
+p918
+S'compact disc-rewritable'
+p919
+sS'etrm'
+p920
+S'energy trading and risk management'
+p921
+sS'certification practice statement'
+p922
+S'cps'
+p923
+sS'worldwide interoperability for microwave access'
+p924
+S'wimax'
+p925
+sS'cm'
+p926
+S'content management'
+p927
+sS'ca'
+p928
+S'certification authority'
+p929
+sS'acris'
+p930
+S'advanced clinical research information systems'
+p931
+sS'hvd'
+p932
+S'hosted virtual desktops'
+p933
+sS'ce'
+p934
+S'concurrent engineering'
+p935
+sS'ucc'
+p936
+S'unified communications and collaboration'
+p937
+sS'synchronous optical network'
+p938
+S'sonet'
+p939
+sS'internet sales outlet'
+p940
+S'iso'
+p941
+sS'internet protocol'
+p942
+S'ip'
+p943
+sS'pv'
+p944
+S'high-concentration photovoltaics'
+p945
+sS'dcim'
+p946
+S'data center infrastructure management'
+p947
+sS'hierarchical storage management'
+p948
+S'hsm'
+p949
+sS'internal rate of return'
+p950
+S'irr'
+p951
+sS'wpa2'
+p952
+S'wi-fi protected access 2'
+p953
+sS'distributed antenna system'
+p954
+S'das'
+p955
+sS'infrastructure utility services'
+p956
+S'ius'
+p957
+sS'prm'
+p958
+S'sales-focused partner relationship management'
+p959
+sS'personal communications services'
+p960
+S'pcs'
+p961
+sS'information technology'
+p962
+S'it'
+p963
+sS'second generation'
+p964
+S'2g'
+p965
+sS'integrated document management'
+p966
+S'idm'
+p967
+sS'computerized maintenance management system'
+p968
+S'cmms'
+p969
+sS'c-commerce'
+p970
+S'collaborative commerce'
+p971
+sS'quality of service'
+p972
+S'qos'
+p973
+sS'mcm'
+p974
+S'master content management'
+p975
+sS'wide-area network'
+p976
+S'wan'
+p977
+sS'strategy, iteration, testing, enablement'
+p978
+S'site'
+p979
+sS'advanced mobile phone service'
+p980
+S'amps'
+p981
+sS'bpmss'
+p982
+S'business process management suites'
+p983
+sS'quadrature amplitude modulation'
+p984
+S'qam'
+p985
+sS'gan'
+p986
+S'gallium nitride'
+p987
+sS'communications port'
+p988
+S'com'
+p989
+sS'rvm'
+p990
+S'risk-adjusted value management'
+p991
+sS'time domain reflectometry'
+p992
+S'tdr'
+p993
+sS'common open software environment'
+p994
+S'cose'
+p995
+sS'pulse amplitude modulation'
+p996
+S'pam'
+p997
+sS'case'
+p998
+S'computer-aided software engineering'
+p999
+sS'networked data center'
+p1000
+S'ndc'
+p1001
+sS'current procedural terminology'
+p1002
+S'cpt'
+p1003
+sS'network access point'
+p1004
+S'nap'
+p1005
+sS'ais'
+p1006
+S'application infrastructure suite'
+p1007
+sS'eia'
+p1008
+S'enterprise information archiving'
+p1009
+sS'aio'
+p1010
+S'all-in-one'
+p1011
+sS'ar'
+p1012
+S'augmented reality'
+p1013
+sS'critical path method or critical path management'
+p1014
+S'cpm'
+p1015
+sS'eim'
+p1016
+S'enterprise information management'
+p1017
+sS'pulse code modulation'
+p1018
+S'pcm'
+p1019
+sS'vod'
+p1020
+S'video on demand'
+p1021
+sS'va'
+p1022
+S'virtual assistant'
+p1023
+sS'vb'
+p1024
+S'visual basic'
+p1025
+sS'vc'
+p1026
+S'virtual channel'
+p1027
+sS'uxp'
+p1028
+S'user experience platforms'
+p1029
+sS'voc'
+p1030
+S'voice of the customer'
+p1031
+sS'third-generation partnership project'
+p1032
+S'3gpp'
+p1033
+sS'iu'
+p1034
+S'it infrastructure utility'
+p1035
+sS'vm'
+p1036
+S'virtual machine'
+p1037
+sS'avl'
+p1038
+S'automated vehicle locating'
+p1039
+sS'vr'
+p1040
+S'virtual reality'
+p1041
+sS'vs'
+p1042
+S'visual studio'
+p1043
+sS'computer output to laserdisc'
+p1044
+S'cold'
+p1045
+sS'direct to home'
+p1046
+S'dth'
+p1047
+sS'comprehensive production architecture'
+p1048
+S'cpa'
+p1049
+sS'ascii'
+p1050
+S'american standard code for information interchange'
+p1051
+sS'avc'
+p1052
+S'mpeg-4 advanced video coding'
+p1053
+sS'pas'
+p1054
+S'complementary metal-oxide semiconductor (cmos) radio frequency (rf) power amplifiers'
+p1055
+sS'pat'
+p1056
+S'process analytical technology'
+p1057
+sS'vowlan'
+p1058
+S'voice over wireless lan'
+p1059
+sS'lbm'
+p1060
+S'location-based marketing'
+p1061
+sS'kyoto wheel'
+p1062
+S'rotary heat exchanger'
+p1063
+sS'strategic information office'
+p1064
+S'sio'
+p1065
+sS'private exchange'
+p1066
+S'px'
+p1067
+sS'pclm'
+p1068
+S'product cost and life cycle management'
+p1069
+sS'store-and-forward manager'
+p1070
+S'sfm'
+p1071
+sS'network dynamic functionality'
+p1072
+S'ndf'
+p1073
+sS'database management system'
+p1074
+S'dbms'
+p1075
+sS'korea communications commission'
+p1076
+S'kcc'
+p1077
+sS'certified network professional'
+p1078
+S'cnp'
+p1079
+sS'supply chain planning'
+p1080
+S'scp'
+p1081
+sS'access media gateways'
+p1082
+S'amg'
+p1083
+sS'rfid'
+p1084
+S'radio-frequency identification'
+p1085
+sS'single channel per carrier'
+p1086
+S'scpc'
+p1087
+sS'federal communications commission'
+p1088
+S'fcc'
+p1089
+sS'f-commerce'
+p1090
+S'facebook commerce'
+p1091
+sS'subjective, objective, assessment and plan'
+p1092
+S'soap'
+p1093
+sS'interface definition language'
+p1094
+S'idl'
+p1095
+sS'mips'
+p1096
+S'million instructions per second'
+p1097
+sS'wpa'
+p1098
+S'wi-fi protected access'
+p1099
+sS'structure, scripting, populating and channel outputs'
+p1100
+S'sspc'
+p1101
+sS'bioacoustic sensing'
+p1102
+S'skinput'
+p1103
+sS'pnds'
+p1104
+S'connected portable navigation devices'
+p1105
+sS'epp'
+p1106
+S'endpoint protection platform'
+p1107
+sS'ccm'
+p1108
+S'customer communications management'
+p1109
+sS'private branch exchange'
+p1110
+S'pbx'
+p1111
+sS'edge'
+p1112
+S'enhanced data rates for global evolution'
+p1113
+sS'ccd'
+p1114
+S'charge-coupled device'
+p1115
+sS'software failure detection and recovery'
+p1116
+S'sfdr'
+p1117
+sS'ccc'
+p1118
+S'car connectivity consortium'
+p1119
+sS'internet protocol address'
+p1120
+S'ip address'
+p1121
+sS'siem'
+p1122
+S'security information and event management'
+p1123
+sS'shop floor control'
+p1124
+S'sfc'
+p1125
+sS'ci'
+p1126
+S'continuous integration'
+p1127
+sS'tco'
+p1128
+S'total cost of ownership'
+p1129
+sS'communications oriented production information and control system'
+p1130
+S'copics'
+p1131
+sS'mft'
+p1132
+S'managed file transfer'
+p1133
+sS'simple api for xml'
+p1134
+S'sax'
+p1135
+sS'knowledge map'
+p1136
+S'k-map'
+p1137
+sS'home location register'
+p1138
+S'hlr'
+p1139
+sS'pox'
+p1140
+S'plain old xml'
+p1141
+sS'han'
+p1142
+S'home-area network'
+p1143
+sS'storage area network'
+p1144
+S'san'
+p1145
+sS'requirements definition and management'
+p1146
+S'rdm'
+p1147
+sS'1g or analog'
+p1148
+S'first generation'
+p1149
+sS'integrated digital enhanced network'
+p1150
+S'iden'
+p1151
+sS'disaster recovery planning'
+p1152
+S'drp'
+p1153
+sS'adf'
+p1154
+S'automated document factory'
+p1155
+sS'adc'
+p1156
+S'application delivery controller'
+p1157
+sS'lims'
+p1158
+S'laboratory information management system'
+p1159
+sS'peak transaction rate'
+p1160
+S'ptr'
+p1161
+sS'integrated document archive and retrieval system'
+p1162
+S'idars'
+p1163
+sS'digital subscriber line'
+p1164
+S'dsl'
+p1165
+sS'ami'
+p1166
+S'advanced metering infrastructure'
+p1167
+sS'zle'
+p1168
+S'zero-latency enterprise'
+p1169
+sS'distributed request'
+p1170
+S'dr'
+p1171
+sS'production information management system'
+p1172
+S'pims'
+p1173
+sS'bia'
+p1174
+S'business impact analysis'
+p1175
+sS'pki'
+p1176
+S'public-key infrastructure'
+p1177
+sS'service pack'
+p1178
+S'sp'
+p1179
+sS'arad'
+p1180
+S'architected rapid application development'
+p1181
+sS'symmetric digital subscriber line'
+p1182
+S'sdsl'
+p1183
+sS'bit'
+p1184
+S'binary digit'
+p1185
+sS'work breakdown structure'
+p1186
+S'wbs'
+p1187
+sS'healthcare procedural classification system'
+p1188
+S'hcpcs'
+p1189
+sS'wireless hd'
+p1190
+S'wihd'
+p1191
+sS'bpa'
+p1192
+S'business process automation'
+p1193
+sS'mhl'
+p1194
+S'mobile high-definition link'
+p1195
+sS'phase alternate line'
+p1196
+S'pal'
+p1197
+sS'ip multimedia subsystem'
+p1198
+S'ims'
+p1199
+sS'bpf'
+p1200
+S'business process fusion'
+p1201
+sS'wcm'
+p1202
+S'web content management'
+p1203
+sS'data definition language'
+p1204
+S'ddl'
+p1205
+sS'bpm'
+p1206
+S'dynamic business process management'
+p1207
+sS'bpo'
+p1208
+S'business process outsourcing'
+p1209
+sS'symmetric multiprocessing'
+p1210
+S'smp'
+p1211
+sS'computer-based patient record'
+p1212
+S'cpr'
+p1213
+sS'pmus'
+p1214
+S'phasor measurement units'
+p1215
+sS'spatial division multiple access'
+p1216
+S'sdma'
+p1217
+sS'bpr'
+p1218
+S'business process re-engineering'
+p1219
+sS'vdi'
+p1220
+S'virtual desktop infrastructure'
+p1221
+sS'software oversight committee'
+p1222
+S'soc'
+p1223
+sS'xsl'
+p1224
+S'extensible stylesheet language'
+p1225
+sS'closed user group'
+p1226
+S'cug'
+p1227
+sS'product data management'
+p1228
+S'pdm'
+p1229
+sS'packet control unit'
+p1230
+S'pcu'
+p1231
+sS'network-attached storage'
+p1232
+S'nas'
+p1233
+sS'wireless broadband'
+p1234
+S'wibro'
+p1235
+sS'serving gprs support node'
+p1236
+S'sgsn'
+p1237
+sS'vsf'
+p1238
+S'virtual server facility'
+p1239
+sS'personal digital cellular'
+p1240
+S'pdc'
+p1241
+sS'sustainable cell rate'
+p1242
+S'scr'
+p1243
+sS'return on competitiveness'
+p1244
+S'roc'
+p1245
+sS'fbi'
+p1246
+S'fabric-based infrastructure'
+p1247
+sS'casbs'
+p1248
+S'cloud access security brokers'
+p1249
+sS'programmable logic controller'
+p1250
+S'plc'
+p1251
+sS'mooc'
+p1252
+S'massive open online course'
+p1253
+sS'communications service provider'
+p1254
+S'csp'
+p1255
+sS'esp'
+p1256
+S'external services provider'
+p1257
+sS'saas'
+p1258
+S'software as a service'
+p1259
+sS'customer service and support'
+p1260
+S'css'
+p1261
+sS'workforce management'
+p1262
+S'wfm'
+p1263
+sS'ddm'
+p1264
+S'dynamic data masking'
+p1265
+sS'reduced instruction set computer'
+p1266
+S'risc'
+p1267
+sS'human resource management system'
+p1268
+S'hrms'
+p1269
+sS'hcm'
+p1270
+S'human capital management'
+p1271
+sS'european telecommunications standards institute'
+p1272
+S'etsi'
+p1273
+sS'programming language'
+p1274
+S'c'
+sS'cgi'
+p1275
+S'common gateway interface'
+p1276
+sS'dco'
+p1277
+S'data center outsourcing'
+p1278
+sS'cgm'
+p1279
+S'consumer-generated media'
+p1280
+sS'tdm'
+p1281
+S'time division multiplexing'
+p1282
+sS'data management and integration'
+p1283
+S'dmi'
+p1284
+sS'wap identity module'
+p1285
+S'wim'
+p1286
+sS'service-level agreement'
+p1287
+S'sla'
+p1288
+sS'dcb'
+p1289
+S'data center bridging'
+p1290
+sS'bi'
+p1291
+S'business intelligence'
+p1292
+sS'compliance unit'
+p1293
+S'cu'
+p1294
+sS'sometimes ymck or \xe2\x80\x9cprocess color printing\xe2\x80\x9d'
+p1295
+S'cmyk'
+p1296
+sS'key process output variable'
+p1297
+S'kpov'
+p1298
+sS'plm'
+p1299
+S'product life cycle management'
+p1300
+sS'certified information systems security professional'
+p1301
+S'cissp'
+p1302
+sS'cost per click'
+p1303
+S'cpc'
+p1304
+sS'professional services administration'
+p1305
+S'psa'
+p1306
+sS'cdma2000 1x rtt'
+p1307
+S'1xrtt'
+p1308
+sS'lifepo4'
+p1309
+S'lithium iron phosphate'
+p1310
+sS'aco'
+p1311
+S'accountable care organization'
+p1312
+sS'bpaas'
+p1313
+S'business process as a service'
+p1314
+sS'stock-keeping unit'
+p1315
+S'sku'
+p1316
+sS'acr'
+p1317
+S'automatic content recognition'
+p1318
+sS'msps'
+p1319
+S'marketing service providers'
+p1320
+sS'create, retrieve, update, delete'
+p1321
+S'crud'
+p1322
+sS'converged network services'
+p1323
+S'cns'
+p1324
+sS'ru'
+p1325
+S'rack unit'
+p1326
+sS'component object library'
+p1327
+S'col'
+p1328
+sS'frequency modulation'
+p1329
+S'fm'
+p1330
+sS'synchronization markup language'
+p1331
+S'syncml'
+p1332
+sS'integrated digital network'
+p1333
+S'idn'
+p1334
+sS'lightweight directory access protocol'
+p1335
+S'ldap'
+p1336
+sS'kpi'
+p1337
+S'key performance indicator'
+p1338
+sS'aol instant messenger'
+p1339
+S'aim'
+p1340
+sS'ppm'
+p1341
+S'product portfolio and program management'
+p1342
+sS'complex instruction set computer'
+p1343
+S'cisc'
+p1344
+sS'capacity requirements planning'
+p1345
+S'crp'
+p1346
+sS'ahp'
+p1347
+S'analytical hierarchy process'
+p1348
+sS'lifetime clinical record'
+p1349
+S'lcr'
+p1350
+sS'bt3.0'
+p1351
+S'bluetooth 3.0'
+p1352
+sS'chime'
+p1353
+S'college of healthcare information management executives'
+p1354
+sS'wips'
+p1355
+S'wireless intrusion prevention system'
+p1356
+sS'wam'
+p1357
+S'web authorization management'
+p1358
+sS'ehr'
+p1359
+S'electronic health record'
+p1360
+sS'handheld device markup language'
+p1361
+S'hdml'
+p1362
+sS'scalable vector graphics interface'
+p1363
+S'svg interface'
+p1364
+sS'ngtp'
+p1365
+S'next-generation telematics protocol'
+p1366
+sS'rcs'
+p1367
+S'rich communication suite'
+p1368
+sS'bios'
+p1369
+S'basic input/output system'
+p1370
+sS'corporate trade exchange'
+p1371
+S'ctx'
+p1372
+sS'ipv6'
+p1373
+S'internet protocol version 6'
+p1374
+sS'var'
+p1375
+S'value-added reseller'
+p1376
+sS'vas'
+p1377
+S'versatile authentication server and service'
+p1378
+sS'knowledge'
+p1379
+S'information'
+p1380
+sS'computer output to microfilm or microfiche'
+p1381
+S'com'
+p1382
+sS'push-to-talk over cellular'
+p1383
+S'ptt poc'
+p1384
+sS'eam'
+p1385
+S'enterprise asset management'
+p1386
+sS'eao'
+p1387
+S'enterprise application outsourcing'
+p1388
+sS'sast'
+p1389
+S'static application security testing'
+p1390
+sS'small office/home office'
+p1391
+S'soho'
+p1392
+sS'bpus'
+p1393
+S'business process utilities'
+p1394
+sS'file transfer protocol'
+p1395
+S'ftp'
+p1396
+sS'mssp'
+p1397
+S'managed security service provider'
+p1398
+sS'eap'
+p1399
+S'extensible authentication protocol'
+p1400
+sS'cidr'
+p1401
+S'classless inter-domain routing'
+p1402
+sS'hd'
+p1403
+S'high-definition'
+p1404
+sS'cif'
+p1405
+S'customer information file'
+p1406
+sS'systems administration management tools'
+p1407
+S'sam tools'
+p1408
+sS'utm'
+p1409
+S'unified threat management'
+p1410
+sS'mainframe, mini and midrange'
+p1411
+S'language-oriented development environments'
+p1412
+sS'byod'
+p1413
+S'bring your own device'
+p1414
+sS'common language infrastructure'
+p1415
+S'cli'
+p1416
+sS'nmos'
+p1417
+S'n-channel metal-oxide semiconductor'
+p1418
+sS'pm'
+p1419
+S'closed-loop performance management'
+p1420
+sS'assp'
+p1421
+S'application-specific standard product'
+p1422
+sS'uc'
+p1423
+S'unified communications'
+p1424
+sS'aa'
+p1425
+S'application architecture'
+p1426
+sS'ad'
+p1427
+S'cloud application development'
+p1428
+sS'cbd'
+p1429
+S'component-based development'
+p1430
+sS'ai'
+p1431
+S'artificial intelligence'
+p1432
+sS'enterprise and public network'
+p1433
+S'network outsourcing'
+p1434
+sS'cbr'
+p1435
+S'constant bit rate'
+p1436
+sS'ap'
+p1437
+S'access point'
+p1438
+sS'as'
+p1439
+S'autonomous system'
+p1440
+sS'cbq'
+p1441
+S'class-based queuing'
+p1442
+sS'kurtz-under band'
+p1443
+S'ku-band'
+p1444
+sS'direct broadcast satellite'
+p1445
+S'dbs'
+p1446
+sS'organizational'
+p1447
+S'compliance'
+p1448
+sS'digital multimedia broadcasting'
+p1449
+S'dmb'
+p1450
+sS'nac'
+p1451
+S'network access control'
+p1452
+sS'reliability, availability and serviceability'
+p1453
+S'ras'
+p1454
+sS'amqp'
+p1455
+S'advanced message queuing protocol'
+p1456
+sS'distributed system management'
+p1457
+S'dsm'
+p1458
+sS'structured query language'
+p1459
+S'sql'
+p1460
+sS'vsm'
+p1461
+S'value stream mapping'
+p1462
+sS'relational online analytical processing'
+p1463
+S'rolap'
+p1464
+sS'service switching point'
+p1465
+S'ssp'
+p1466
+sS'infocomm development authority of singapore'
+p1467
+S'ida'
+p1468
+sS'computer-telephony integration'
+p1469
+S'cti'
+p1470
+sS'hpc'
+p1471
+S'high-performance computing'
+p1472
+sS'compare operational readiness evaluation'
+p1473
+S'core'
+p1474
+sS'vrml'
+p1475
+S'virtual reality modeling language'
+p1476
+sS'removable user identity module'
+p1477
+S'r-uim'
+p1478
+sS'small-form-factor, legacy-reduced'
+p1479
+S'sff-lr'
+p1480
+sS'amoled'
+p1481
+S'active matrix organic light-emitting diodes'
+p1482
+sS'native code compiler for java'
+p1483
+S'nccj'
+p1484
+sS'international mobile telecommunications-2000'
+p1485
+S'imt-2000'
+p1486
+sS'ccas'
+p1487
+S'composite content applications'
+p1488
+sS'apaas'
+p1489
+S'application platform as a service'
+p1490
+sS'digital audio broadcasting plus'
+p1491
+S'dab+'
+p1492
+sS'ansi'
+p1493
+S'american national standards institute'
+p1494
+sS'hevs'
+p1495
+S'hybrid electric vehicles'
+p1496
+sS'vsca'
+p1497
+S'voice switching, control and applications'
+p1498
+sS'integrated delivery system'
+p1499
+S'ids'
+p1500
+sS'specialized mobile radio'
+p1501
+S'smr'
+p1502
+sS'iptv'
+p1503
+S'internet protocol television'
+p1504
+sS'wireless ethernet compatibility alliance'
+p1505
+S'weca'
+p1506
+sS'bcm'
+p1507
+S'business continuity manager'
+p1508
+sS'e-coupons'
+p1509
+S'electronic coupons'
+p1510
+sS'integrated services digital network'
+p1511
+S'isdn'
+p1512
+sS'point of presence'
+p1513
+S'pop'
+p1514
+sS'adas'
+p1515
+S'advanced driver assistance systems'
+p1516
+sS'cyber incident response plan'
+p1517
+S'cirp'
+p1518
+sS'rural service area'
+p1519
+S'rsa'
+p1520
+sS'cpq'
+p1521
+S'configure, price, quote'
+p1522
+sS'cps'
+p1523
+S'cloud printing services'
+p1524
+sS'bcp'
+p1525
+S'business continuity planning'
+p1526
+sS'packet assembler/disassembler'
+p1527
+S'pad'
+p1528
+s.

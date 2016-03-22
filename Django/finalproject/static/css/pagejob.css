@@ -1,0 +1,43 @@
+header .headword {
+        padding-top: 140px;
+        padding-bottom: 10px;
+}
+
+#jobForm{
+	/* margin-left:200px;
+	margin-right:200px; */
+	/* width:1000px; */
+	/* height:1000px; */
+	/* background-color:#FFECC9; */
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	font-size:14pt;
+}
+
+#jobtable,th, td {
+	border:1px solid #696969 !important;
+	border:1px solid #696969;
+	border-bottom-width:2px;
+	padding: 8px 5px 8px 5px;
+	/* padding-bottom: 3px; */
+}
+
+#jobtable{
+	/* float:left; */
+	border:2px solid #696969 !important;
+	border:2px solid #696969;
+	border-bottom-width:2px;
+	border-radius:5px;
+	text-align:center;
+	/* background-color:#ddd; */
+}
+
+.containers{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 160px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,292 @@
+,0,1
+192,java,5395
+74,sql,4897
+189,c,4426
+111,c++,4203
+190,linux,3839
+268,c#,2737
+249,asp.net,2611
+274,php,2408
+200,mysql,2401
+187,javascript,2397
+71,excel,2322
+128,html,2309
+271,android,2100
+223,oracle,2009
+280,web,1872
+171,jquery,1865
+285,powerpoint,1849
+228,app,1522
+238,.net,1409
+133,windows server,1371
+140,outlook,1317
+96,ajax,1311
+272,ios,1234
+157,visual basic,1200
+12,erp,1138
+158,css,955
+114,java script,896
+109,xml,854
+236,c#.net,752
+76,tcp ip,746
+167,asp,743
+177,jsp,739
+237,python,737
+0,windows xp,703
+8,unix,699
+37,visual studio,590
+107,visual c++,532
+98,programming,521
+226,vmware,425
+106,sql server,425
+24,mvc,415
+142,embedded,413
+178,mobile,413
+104,sap,386
+217,ui,384
+84,dhtml,382
+79,vb.net,373
+162,photoshop,372
+227,windows nt,357
+290,visual basic .net,347
+247,shell,346
+43,html5,343
+59,uml,336
+58,security,330
+27,struts,329
+230,cloud,324
+48,mcu,310
+269,j2ee,301
+136,cisco,296
+32,firmware,292
+7,mes,289
+115,firewall,289
+46,dreamweaver,287
+174,visual studio .net,280
+185,arm,276
+42,delphi,270
+179,access,267
+134,pos,262
+116,android app,258
+213,visio,249
+10,dns,246
+209,perl,246
+212,bios,242
+102,r,241
+284,tomcat,236
+141,illustrator,230
+89,mac,229
+82,oop,228
+51,ic,226
+41,architecture,220
+122,ruby,209
+245,quality,209
+66,git,204
+53,ccna,195
+173,debugging,194
+251,aws,192
+130,tracking,192
+132,autocad,191
+204,web services,191
+61,plc,184
+224,c++.net,182
+206,mssql,181
+214,ux,180
+11,vpn,176
+233,iis,174
+1,matlab,165
+283,socket,163
+180,big data,163
+151,web service,159
+144,ad,159
+135,mac os,156
+29,embedded system,154
+205,bi,153
+148,ftp,149
+266,json,146
+108,bug tracking,145
+62,postgresql,145
+95,hibernate,144
+276,mfc,141
+196,hadoop,136
+273,automation,135
+164,pcb,130
+257,db2,130
+143,tiptop,128
+154,usability,127
+2,servlet,125
+242,dhcp,124
+234,project management,123
+253,ooad,123
+211,vbscript,121
+208,troubleshooting,120
+256,dba,120
+112,kernel,118
+194,vba,118
+262,etl,115
+255,shell script,112
+54,mcse,111
+131,nosql,111
+160,vlan,110
+36,dos,108
+258,qa,107
+38,solaris,102
+150,cpu,101
+216,labview,101
+67,fpga,100
+16,actionscript,99
+14,scripting,98
+97,jdbc,98
+22,dsp,97
+250,soap,96
+23,acrobat,96
+101,gpgpu,96
+4,adobe acrobat,95
+184,seo,95
+9,open source,94
+80,ips,94
+6,technical support,94
+70,nb,92
+265,rdbms,92
+188,interface,90
+88,xhtml,89
+33,toeic,88
+39,layout,88
+20,operations,88
+47,website,88
+244,lte,87
+264,ce,87
+261,swift,87
+232,embedded linux,87
+259,verilog,87
+13,eclipse,87
+153,rd,86
+239,bluetooth,85
+73,developers,85
+65,wan,84
+100,mining,84
+145,objective-c,84
+176,jsf,83
+57,protocol,83
+225,facebook,83
+85,machine learning,81
+270,unity,80
+45,agile,79
+126,cobol,79
+281,smart,78
+147,field,78
+165,motivated,78
+99,fast,78
+44,j2se,78
+19,bootstrap,77
+159,powerbuilder,77
+15,sharepoint,77
+172,restful,77
+215,cim,76
+50,procedure,76
+117,data mining,76
+125,application development,76
+28,systems analysis,76
+60,core,75
+69,devices,75
+40,amazon,75
+18,xcode,75
+246,udp,75
+243,workflow,74
+219,nas,74
+218,microsoft exchange,74
+201,winform,73
+183,crm,73
+169,weblogic,73
+278,stored,72
+68,wireless,72
+105,online,72
+94,android sdk,72
+87,monitoring,72
+220,mongodb,72
+161,fi,71
+110,ssh,71
+254,databases,71
+72,digital,71
+81,plm,70
+3,unity3d,70
+168,rails,70
+282,page,69
+191,backend,69
+229,linux kernel,69
+235,freebsd,68
+91,monitor,68
+289,hw,68
+155,balancing,68
+21,voip,68
+118,tuning,68
+288,lnternet,68
+197,mobile app,68
+275,audio,68
+127,rwd,67
+55,juniper,67
+30,angularjs,67
+52,ccnp,66
+163,interpersonal,66
+195,optimization,65
+124,case,65
+286,load balancing,65
+25,features,64
+93,ex,64
+287,hr,64
+123,protocols,63
+103,sas,63
+267,porting,63
+193,pg,63
+231,usb,62
+260,configuration,62
+277,abap,62
+92,domain,62
+86,cad,62
+248,ipad,61
+77,pmp,61
+78,supporting,61
+129,schemadesign,61
+203,framwork,61
+56,qualifications,60
+198,x86,60
+241,programmer,59
+252,class,59
+166,orcad,59
+182,compiler,58
+279,enterprise,58
+17,c#.net1.,58
+5,designing,58
+34,bsp,57
+156,device driver,56
+49,commerce,56
+207,servers,56
+139,backup,56
+63,soc,55
+170,nca,55
+222,svn,55
+181,distributed,55
+210,clustering,55
+152,mnd,55
+35,scripts,54
+26,top,54
+199,deployment,54
+202,streaming,54
+31,rhce,54
+83,cases,54
+120,bmc,54
+64,sop,54
+119,engine,54
+113,responsive,54
+138,package,53
+146,drivers,53
+149,ansi,53
+186,familiarity,53
+90,si,53
+221,scrum,52
+137,leadership,51
+121,oracle db,51
+240,citrix,51
+175,lin,51
+75,cgi,51
+263,.net framework,51

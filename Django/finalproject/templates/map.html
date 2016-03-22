@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html lang="en">
+{% load staticfiles %}
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CHART</title>
+	
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+	
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{% static 'css/freelancer2.css' %}" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<script src="{% static 'js/echarts.min.js' %}"></script>
+	
+</head>
+
+<body id="page-top" class="index">
+
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="homepage.html ">IT SKILL MASTER</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="jobRecommend">Job recommend</a>
+                    </li>				
+                    <li class="page-scroll">
+                        <a href="Recommend.html">Skill Recommend</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="map.html">CHART</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+	<!-- Header -->
+<!--     <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+						<span class="skills">We will show you the comparison in Taiwan.<br><br>
+							You can choose the city you live or you would like to work to.
+						</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+	<!-- 
+	<form id="mapform">
+		<script type="text/javascript">
+
+			//Width and height
+			var w = 960;
+			var h = 1000;
+			var w = 650;
+			var h = 1000;
+
+			//Define map projection
+			var projection = d3.geo.mercator()
+			    //.scale((w + 1) / 2 / Math.PI)
+			    .translate([w / 2, h / 2])
+			    .precision(.1)
+			    .center([120.479531, 23.2])
+				.scale(12000);
+				
+				23.978567
+		
+			//Define path generator
+			var path = d3.geo.path()
+							 .projection(projection);
+			//Define quantize scale to sort data values into buckets of color
+			var color = d3.scale.quantize()
+								.range(["rgb(170,255,170)","rgb(186,228,179)","rgb(116,196,118)","rgb(49,163,84)","rgb(0,109,44)"]);
+								//Colors taken from colorbrewer.js, included in the D3 download
+				 
+			//Create SVG element
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+
+			//Load in GeoJSON data
+			d3.csv("{%static "json/201512_new.csv" %}", function(data) {
+
+				//Set input domain for color scale
+				color.domain([
+					d3.min(data, function(d) { return d.value; }), 
+					d3.max(data, function(d) { return d.value; })
+				]);
+
+				d3.json("{%static "json/twCounty2010.geo_1.json"%}", function(json) {
+					//Merge the ag. data and GeoJSON
+					//Loop through once for each ag. data value
+					for (var i = 0; i < data.length; i++) {
+				
+						//Grab state name
+						var dataCounties = data[i].counties;
+						//console.log("dataCounties");
+						//Grab data value, and convert from string to float
+						//var dataValue = parseFloat(data[i].value);
+						var dataValue = parseFloat(data[i].value);
+						//console.log("I love you");
+						//Find the corresponding state inside the GeoJSON
+						for (var j = 0; j < json.features.length; j++) {
+						
+							//console.log("hi");
+							var jsonCounties = json.features[j].properties.name;
+				
+							if (dataCounties == jsonCounties) {
+						
+								//Copy the data value into the JSON
+								json.features[j].properties.value = dataValue;
+								
+								//Stop looking through the JSON
+								//break;
+								
+							}
+						}		
+					}
+					//Bind data and create one path per GeoJSON feature
+					svg.selectAll("path")
+					   .data(json.features)
+					   .enter()
+					   .append("path")
+					   .attr("d", path)
+					   .style("fill", function(d) {
+						   		//Get data value
+						   		var value = d.properties.value;
+						   		
+						   		if (value) {
+						   			//If value exists…
+							   		return color(value);
+						   		} else {
+						   			//If value is undefined…
+							   		return "steelblue";
+						   		}
+						   });
+					
+					// d3.csv("201512_new.csv", function(data) {
+						
+					// 	svg.selectAll("circle")
+					// 	   .data(data)
+					// 	   .enter()
+					// 	   .append("circle")
+					// 	   .attr("cx", function(d) {
+					// 		   return projection([d.lon, d.lat])[0];
+					// 	   })
+					// 	   .attr("cy", function(d) {
+					// 		   return projection([d.lon, d.lat])[1];
+					// 	   })
+					// 	   .attr("r", 5)
+					// 	   .style("fill", "yellow")
+					// 	   .style("opacity", 0.75);
+						
+					// });
+
+					});
+				
+				});
+			
+		</script>		
+	</form> -->
+	
+	<div id="echarts2" style="margin-top:130px;margin-bottom:30px;margin-left:15%;width: 1050px;height:700px;"></div>
+    <script type="text/javascript">
+        
+		// 基于准备好的dom，初始化echarts实例
+		var myChart = echarts.init(document.getElementById('echarts2'));		
+		
+		// 指定图表的配置项和数据
+		var option2 = {
+    title : {
+        text: '各地區職缺數量',
+        x:'center'
+    },
+    tooltip : {
+        trigger: 'item',
+        formatter: "{b} : {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        left: 'left',
+        data: ['台北市','新北市','桃園市','台中市','台南市','高雄市','新竹市','新竹縣','其他']
+    },
+    series : [
+        {
+            name: '访问来源',
+            type: 'pie',
+            radius : '65%',
+            center: ['50%', '60%'],
+            data:[
+                {value:17572, name:'台北市'},
+                {value:6205, name:'新北市'},
+                {value:2286, name:'桃園市'},
+                {value:3142, name:'台中市'},
+                {value:914, name:'台南市'},
+                {value:1643, name:'高雄市'},
+                {value:2525, name:'新竹市'},
+                {value:1444, name:'新竹縣'},
+                {value:1230, name:'其他'}
+            ],
+            itemStyle: {
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+        }
+    ]
+};
+		// 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option2);
+    </script>
+		<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="echarts" style="margin-top:130px;margin-bottom:30px;margin-left:15%;width: 1050px;height:700px;"></div>
+    <script type="text/javascript">
+        
+		// 基于准备好的dom，初始化echarts实例
+		var myChart = echarts.init(document.getElementById('echarts'));		
+		
+		// 指定图表的配置项和数据
+		var option = {
+    tooltip : {
+        trigger: 'axis',
+        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+    },
+    legend: {
+        data:['平均每戶消費支出','平均每戶儲蓄額']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis : [
+        {
+            type : 'value'
+        }
+    ],
+    yAxis : [
+        {
+            type : 'category',
+            data : ['澎湖縣','台東縣','花蓮縣','宜蘭縣','屏東縣','嘉義縣','雲林縣','南投縣','彰化縣','苗栗縣','新竹縣','嘉義市','新竹市','基隆市','高雄市','台南市','台中市','桃園市','新北市','台北市']
+        }
+    ],
+    series : [
+        {
+            name:'平均每戶消費支出',
+            type:'bar',
+            stack: '总量',
+            itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+            data:[543641, 494037, 547353, 738296, 547989, 567649, 518443, 561412, 594464, 649705, 900922, 726313, 1036179, 692416, 722305, 674797, 786285, 821381, 760951, 1014262]
+        },
+        {
+            name:'平均每戶儲蓄額',
+            type:'bar',
+            stack: '总量',
+            itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+            data:[227734, 253503, 168090, 164307, 151559, 100284, 211592, 221154, 188995, 263766, 208019, 232063, 209420, 111591, 195354, 155160, 169314, 267487, 186719, 278341]
+        },
+    ]
+};
+		
+		// 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+	
+	
+	
+	<!-- Footer -->
+    <footer class="text-center" id="footer">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>No. 300, Zhongda Rd., Zhongli District,<br> Taoyuan City 32001, Taiwan (R.O.C.)</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+					<h3>Teacher</h3>
+                        <p>Mr.Kuo, Mr.Hsu</p>
+                        <!-- <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/iiichunglii/?fref=ts" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul> -->
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Producer</h3>
+                        <p>Jimmy Yang,  Jeff Chang, Jimmy Kuo,<br> Michelle Fu,  Tom Jao,  Kathy Lin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; IT Skill Master 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+	<!-- jQuery -->
+    <script src="{%static 'js/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="{% static 'js/classie.js' %}"></script>
+    <script src="{% static 'js/cbpAnimatedHeader.js' %}"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="{% static 'js/jqBootstrapValidation.js' %}"></script>
+    <script src="{% static 'js/contact_me.js' %}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{% static 'js/freelancer.js' %}"></script>	
+	
+</body>
+
+</html>

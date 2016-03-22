@@ -1,0 +1,85 @@
+
+# coding: utf-8
+
+# In[ ]:
+
+
+import numpy as np
+import MySQLdb
+import json
+
+from pyspark import SparkConf , SparkContext
+
+#建立sc物件
+conf = SparkConf().setAppName("kmean")
+sc = SparkContext(conf = conf)
+
+#連接資料庫取技能字典資料
+db = MySQLdb.connect("10.120.26.46","yang","iiizb104","project" )
+cursor = db.cursor()
+sql = "SELECT dict FROM project.dict;"
+
+# 执行SQL语句
+cursor.execute(sql)
+# 获取所有记录列表
+resultdic = cursor.fetchall()
+dic = resultdic[0]
+set_skill = json.loads(dic[0])
+db.close()
+
+print 'set_skill'
+print type(set_skill)
+print set_skill
+print "=============="
+
+#排序
+list_skill = sorted(set_skill)
+
+
+#連接資料庫取網路爬到的職缺之技能
+db = MySQLdb.connect("10.120.26.46","yang","iiizb104","project" )
+cursor = db.cursor()
+sql = "SELECT skill FROM project.jobstorage WHERE skill NOT REGEXP '{}' ;"
+
+# 执行SQL语句
+cursor.execute(sql)
+# 获取所有记录列表
+results = cursor.fetchall()
+results = list(results)
+list_of_lists = []
+
+
+#寫成陣列
+for row in results:
+    tmpdic = json.loads(row[0])
+    for each in set_skill:
+        if each not in tmpdic:
+            tmpdic[each]=0
+    tmpList = []
+    for each in list_skill:
+        tmpList.append(tmpdic[each])
+
+    list_of_lists.append(tmpList)
+d = []
+
+
+#把陣列再寫成字串,中間用空白隔開(其實應該在前面寫成陣列的部分直接改即可,但時間不足所以加在後面)
+count = 0
+for a in list_of_lists:
+	count = count + 1
+	c = ''
+	for b in a:
+		if len(c) > 0:
+			c = c + '\t'
+		c = c + str(b) 
+	d.append(c)
+print 'count='
+print count
+
+#寫入HDFS
+lines = sc.parallelize(d)
+print type(lines)
+lines.saveAsTextFile("hdfs://master:9000/user/cloudera/project/Arraytxt")
+#lines.saveAsTextFile("hdfs://master:9000/user/Arraytxt")
+db.close()
+

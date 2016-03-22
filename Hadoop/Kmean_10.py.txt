@@ -1,0 +1,55 @@
+
+# coding: utf-8
+
+# In[ ]:
+import sys
+import time
+import cPickle as pickle
+import MySQLdb
+import json
+from pyspark import SparkConf , SparkContext
+from numpy import array
+from math import sqrt
+from pyspark.mllib.linalg import Vectors
+from pyspark.mllib.stat import Statistics
+from pyspark.mllib.clustering import KMeans, KMeansModel
+
+#取起始時間
+starttime = time.time()
+#建立sc物件
+conf = SparkConf().setAppName("kmean")
+sc = SparkContext(conf = conf)
+#從HDFS取出資料
+skillarray = sc.textFile("hdfs://master:9000/user/cloudera/project/Arraytxt")
+skillarray.collect()
+print 'skillarray.count()=',skillarray.count()
+
+#將資料轉成MLlib需求之陣列格式
+def parse_data(data):
+    return data.map(lambda x : x.split('\t')).map(lambda x : Vectors.dense(x))
+parsedData = parse_data(skillarray)
+#建立模型,分群數=10
+model = KMeans.train(parsedData, 10)
+#印出各群之中心點
+print model.clusterCenters
+
+#跑回圈取每筆資料所屬之分群
+outlist = []
+for k in parsedData.collect():
+	outstr =  str(k) +','+ str(model.predict(k))#判斷特定一筆資料所屬之分群
+	outlist.append(outstr)
+	outstr = ''
+#結束時間
+endtime = time.time()
+#花費時間(秒)
+costtime = endtime - starttime
+#印出花費時間
+print "******Kmeans,K = 10 ,time cost = " , costtime , "second******"
+#印出處理資料之大小
+print "datasize=",sys.getsizeof(skillarray)
+#將每筆資料與所屬之分群寫回HDFS
+outdata = sc.parallelize(outlist)
+outdata.saveAsTextFile("hdfs://master:9000/user/cloudera/project/kmean/output_10")	
+
+
+

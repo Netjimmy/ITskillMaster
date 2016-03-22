@@ -1,0 +1,147 @@
+/* the form */
+#skillForm{
+	/* margin-left:200px;
+	margin-right:200px; */
+	/* width:1000px; */
+	height:500px;
+	/* background-color:#FFECC9; */
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-top:30px;
+	margin-bottom:171px;
+	/* padding-top: 160px; */
+	padding-bottom: 20px;
+	font-size:14pt;
+	/* border:1px solid blue; */
+}
+
+#warningwords{
+	float:top;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-top:80px;
+	font-size: 25pt;
+	height:200px;
+	/* border:1px solid blue; */
+}
+
+/* top 20 skills */
+#popularSkills {
+	float:left; 
+	/* width: 500px;  */
+	margin-top:60px;
+	margin-left:5%;
+	margin-right:50px;
+	/* border:1px solid blue; */
+	/* background-color:#ddd; */
+}
+
+#skillsTable,th, td {
+	border:2px solid #696969 !important;
+	border:2px solid #696969;
+	border-bottom-width:5px;
+	padding:5px 8px;
+	border-radius:2px;
+	/* padding-top: 200px;
+	padding-bottom: 100px; */
+}
+
+#skillsTable{
+	float:left;
+	border:2px solid #696969 !important;
+	border:2px solid #696969;
+	border-bottom-width:5px;
+	border-radius:5px;
+	text-align:center;
+	padding:8px 8px 8px 8px;
+	font-size: 18pt;
+}
+
+/* selected skills */
+#selectedSkills{
+	float:left; 
+	/* width: 400px; 
+	height: 500px; */
+	/* margin-right:20px; */
+	/* margin-left:0px; */
+	padding-top: 160px;
+	/* border:1px solid red; */
+}
+
+#selectedTable,th, td {
+	border:1px solid #696969 !important;
+	border:1px solid #696969;
+	border-bottom-width:2px;
+	padding:10px;
+}
+
+#selectedTable{
+	float:left;
+	border:2px solid #696969 !important;
+	border:2px solid #696969;
+	border-bottom-width:2px;
+	border-radius:10px;
+	text-align:center;
+	width: 243px; 
+	height: 430px;
+	padding:10px 10px 10px 10px;
+	font-size: 18pt;
+}
+
+#skillsTable a{
+	text-decoration:none;
+}
+
+/* ok button */
+#aside{
+	margin-left:50px;
+	margin-top:280px;
+	/* margin-right:40px; */
+	/* background-color:#ddd; */
+	/* border:1px solid red; */
+	float:left;
+}
+
+#sortable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 220px;
+	/* border:1px solid red; */
+}
+
+#sortable li {
+	margin: 0 6px 3px 3px;
+	padding: 0.4em;
+	/* padding-left: 1.5em; */
+	font-size: 1em;
+	height: 18px; 
+	text-align:center;
+}
+
+#sortable li span { 
+	position: absolute; 
+	margin-left: -1.3em; 
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+#sub{ 
+	width:120px; 
+	height:120px; 
+	font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size:40pt;	
+	background-color:#2C3E50;
+	color:#fff;
+	border-radius:60px;
+}
+
+/* 
+color: #000000;
+    background: #fff;
+	padding-top: 160px;
+    padding-bottom: 20px;
+	padding-left: 30%;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.25em;
+    font-weight: 300; */
